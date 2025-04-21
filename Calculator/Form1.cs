@@ -17,28 +17,7 @@ namespace Calculator
         {
             InitializeComponent();
         }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonForCalc1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonForCalc3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonForCalc9_Click(object sender, EventArgs e)
         {
 
         }
@@ -74,6 +53,11 @@ namespace Calculator
             if (TextDisplay1.Text != string.Empty)
             {
                 if (TextDisplay1.Text == "0") TextDisplay2.Text = string.Empty;
+                if (RtBoxDisplayHistory.Text.Contains("There is no history yet"))
+                {
+                    RtBoxDisplayHistory.Clear();
+                }
+
                 switch (operation)
                 {
                     case "+":
@@ -113,6 +97,7 @@ namespace Calculator
             RtBoxDisplayHistory.Clear();
             if (RtBoxDisplayHistory.Text == string.Empty)
                 RtBoxDisplayHistory.Text = "There is no history yet.";
+            
 
         }
 
@@ -139,6 +124,10 @@ namespace Calculator
         {
             ButtonForCalc button = (ButtonForCalc)sender;
             operation = button.Text;
+            if (RtBoxDisplayHistory.Text.Contains("There is no history yet"))
+            {
+                RtBoxDisplayHistory.Clear();
+            }
             switch (operation) {
                 case "√x":
                     TextDisplay2.Text = $"√({TextDisplay1.Text})";
