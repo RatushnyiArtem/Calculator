@@ -8,3 +8,13 @@ C:\Users\GG\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.Gener
 C:\Users\GG\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\GG\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\GG\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Volodymyr\Source\Repos\Calculator\Calculator\bin\Debug\Calculator.pdb
